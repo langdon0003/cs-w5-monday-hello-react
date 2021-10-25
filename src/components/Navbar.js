@@ -7,7 +7,7 @@ function Navbar() {
       <div class="container">
         <img src={Logo} alt="logo" width="130" />
         <div class="links">
-          <a href="google.com">Premium</a>
+          <a href="/jobs">Jobs</a>
           <a href="google.com">Support</a>
           <a href="google.com">Download</a>
           <span>|</span>

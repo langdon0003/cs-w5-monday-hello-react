@@ -1,0 +1,58 @@
+#job-board {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.job-card {
+  margin: 10px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#job-board .job-card_header {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.job-card_header .title {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: aqua;
+  border-radius: 8px;
+  margin: 2px 2px 2px 0px;
+  padding: 2px 5px;
+}
+
+.job-card_body {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px 5px;
+}
+
+.company-overview .name {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.company-overview .benefits-tag{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.company-overview .benefit-true {
+  color: blue;
+  font-weight: 900;
+}
+
+.company-overview .benefit-false {
+  color: lightgrey;
+  font-weight: 300;
+
+}
