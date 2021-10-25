@@ -16,7 +16,6 @@ export default function JobCard({ props }) {
     description: desc,
     skills,
   } = props;
-  console.log(`skills`, skills);
   return (
     <div className="job-card">
       <div className="job-card_header">

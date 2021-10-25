@@ -7,6 +7,8 @@ import Jobs from "./components/Jobs";
 import "./App.css";
 
 function App() {
+  console.log(`window.location.path`, window.location.path);
+  console.log(`window.location`, window.location);
   if (window.location.pathname === "/jobs") {
     return <Jobs />;
   } else {
